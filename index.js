@@ -4,7 +4,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 let box1 = document.getElementById("box1-h5")
 let box2 = document.getElementById("box2-h5")
 
-let passwordLength = 12
+let passwordLength = 15
 
 function getRandomCharacter() {
     let randomChar = Math.floor(Math.random() * characters.length)
