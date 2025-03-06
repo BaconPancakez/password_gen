@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+    text-align: left;
+    padding: 50px;
+}
+
+h1{
+    color: #FFFFFF;
+    font-family:'Tens', monospace;
+    font-weight: 300px;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h2{
+    color: #55F991;
+    font-family:'Tens', monospace;
+    font-weight: 300px;
+    font-size: 40px    ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+h3{
+    color: #D5D4D8;
+    font-family:'Inter', monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+button{
+    color: #FFFFFF;
+    background-color: #10B981;
+    width: 191px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 17px;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+h5{
+    background-color: #273549 ;
+    font-family:'Inter', monospace;
+    padding-top: 9px;
+    width: 211px;
+    height: 39px;
+    top: 396px;
+    font-size:  16px;
+    left: 287px;
+    border-radius: 6px;
+    text-align: center;
+    color: #55F991;
+    font-weight:lighter;
+}
+
+.h5-container {
+    display: flex; /* Enables flexbox */
+    gap: 10px; /* Adds spacing between h5 elements */
+    align-items: center; /* Aligns them properly */
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+}
